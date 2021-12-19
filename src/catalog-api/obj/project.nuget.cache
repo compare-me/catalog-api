@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "VZa1sM/smm6DVhN1vjttWFPK1p+6knk48LptPI+g2D4kTlqsG2IDYgg7qLOST8fuQmB0uJalzaB0OKCfxk5rTg==",
+  "success": true,
+  "projectFilePath": "/home/wuerike/compareme/catalog-api/src/catalog-api/catalog-api.csproj",
+  "expectedPackageFiles": [
+    "/home/wuerike/.nuget/packages/microsoft.extensions.apidescription.server/3.0.0/microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "/home/wuerike/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
+    "/home/wuerike/.nuget/packages/swashbuckle.aspnetcore/6.2.3/swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "/home/wuerike/.nuget/packages/swashbuckle.aspnetcore.swagger/6.2.3/swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "/home/wuerike/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.2.3/swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "/home/wuerike/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.2.3/swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+  ],
+  "logs": []
+}
