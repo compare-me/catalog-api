@@ -1,0 +1,28 @@
+name: Master into Develop
+
+on:
+  pull_request:
+    branches:
+      - main
+    types:
+      - closed
+
+jobs:
+  update_branches:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Verify event
+        if: github.event.pull_request.merged == false
+        run: |
+          echo 'Develop is updated only when a new release is merged into master'
+          exit 1
+
+      - name: Merge master into develop
+        uses: everlytic/branch-merge@1.1.2
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          source_ref: 'master'
+          target_branch: 'develop'
+          commit_message_template: 'Update {target_branch} from {source_ref}'
